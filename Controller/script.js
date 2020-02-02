@@ -23,18 +23,18 @@ init();
 /**
  * Erase the previous data from the table
  */
-function erasePreviousData() {
-  // var tableRows = document.getElementById("table").rows.length;
-  // var tableParent = document.getElementById("table-content");
-  // tableParent.innerHTML = "";
-  // if (tableRows > 1) {
-  //   console.log("Entertinf the if ", tableRows);
-  //   do {
-  //     tableRows--;
-  //     tableParent.deleteRow(tableRows);
-  //   } while (tableRows > 1);
-  // }
-}
+// function erasePreviousData() {
+//   var tableRows = document.getElementById("table").rows.length;
+//   var tableParent = document.getElementById("table-content");
+//   tableParent.innerHTML = "";
+//   if (tableRows > 1) {
+//     console.log("Entertinf the if ", tableRows);
+//     do {
+//       tableRows--;
+//       tableParent.deleteRow(tableRows);
+//     } while (tableRows > 1);
+//   }
+// }
 /**
  * LastUpdate
  */
