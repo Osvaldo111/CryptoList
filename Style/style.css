@@ -28,6 +28,18 @@ body {
 .coinImage {
   height: 24px;
   width: 24px;
+  padding-right: 15px;
+}
+
+.coinImage + span {
+  display: inline-block;
+  width: 150px;
+}
+.negativePriceChange {
+  color: red;
+}
+.positivePriceChange {
+  color: green;
 }
 table {
   font-family: arial, sans-serif;
@@ -39,5 +51,30 @@ td,
 th {
   border-bottom: 1px solid #dddddd;
   text-align: left;
-  padding: 8px;
+  padding: 16px;
+}
+
+.timeUpdate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/**
+* Animation for the time Update
+*/
+.timeUpdateColor {
+  background-color: white;
+  animation-name: changeColor;
+  animation-duration: 2s;
+  /* animation: changeColor 2s ease infinite; */
+}
+
+@keyframes changeColor {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: #f2a900;
+  }
 }

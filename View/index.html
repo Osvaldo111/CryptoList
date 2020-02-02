@@ -22,20 +22,34 @@
     <p class="center">
       The top 100 Crypto currencies accroding to the Market Cap
     </p>
+    <!-- <p class="timeUpdate"><div >Last Update: <span id="lastUpdate"></span></div></p> -->
+    <div class="timeUpdate">
+      <div id="time">
+        Last Update: <span id="lastUpdate" class="timeUpdateColor"></span>
+      </div>
+    </div>
+    <p class="center">
+      The data is updated every 10 seconds and sorted accroding to the current
+      Market Cap
+    </p>
     <div class="container">
       <table id="table">
-        <tr>
-          <th id="rank">Rank #</th>
-          <!--Market Cap Rank-->
-          <th id="coin">Coin</th>
-          <!-- Id, Image and Symbol-->
-          <th id="price">Price USD</th>
-          <!-- Current price-->
-          <th id="priceChange">24h</th>
-          <!-- price_change_percentage_24-->
-          <th id="marketCap">Mkt Cap</th>
-          <!-- market_cap-->
-        </tr>
+        <thead>
+          s
+          <tr>
+            <th id="rank">Rank #</th>
+            <!--Market Cap Rank-->
+            <th id="coin">Coin</th>
+            <!-- Id, Image and Symbol-->
+            <th id="price">Price USD</th>
+            <!-- Current price-->
+            <th id="priceChange">24h</th>
+            <!-- price_change_percentage_24-->
+            <th id="marketCap">Mkt Cap</th>
+            <!-- market_cap-->
+          </tr>
+        </thead>
+        <tbody id="table-content"></tbody>
       </table>
     </div>
     <!-- <img src="../Resources/Waterfall_model.png" alt="" id="imgTest">
