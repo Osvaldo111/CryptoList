@@ -203,6 +203,22 @@ th {
   transition: max-height 1.5s;
 }
 
+.modalDarkMode {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #000000;
+  color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  transition: max-height 1.5s;
+  border: solid;
+}
+
 .tableMdl {
   width: 0;
   margin: 0 auto;
@@ -215,7 +231,8 @@ th {
 /*
 * Close Bttn Modal
 */
-.closeBttnMdl {
+.closeBttnMdl,
+.closeBttnMdlDark {
   position: absolute;
   right: 30px;
   top: 10px;
@@ -226,19 +243,35 @@ th {
 .closeBttnMdl:hover {
   opacity: 1;
 }
-.closeBttnMdl:before,
-.closeBttnMdl:after {
+.closeBttnMdlDark:hover {
+  opacity: 1;
+}
+.closeBttnMdl::before,
+.closeBttnMdl::after,
+.closeBttnMdlDark::before,
+.closeBttnMdlDark::after {
   position: absolute;
   left: 15px;
   content: " ";
   height: 33px;
   width: 2px;
+}
+
+.closeBttnMdl::before,
+.closeBttnMdl::after {
   background-color: #333;
 }
-.closeBttnMdl:before {
+
+.closeBttnMdlDark::before,
+.closeBttnMdlDark::after {
+  background-color: white;
+}
+.closeBttnMdl::before,
+.closeBttnMdlDark::before {
   transform: rotate(45deg);
 }
-.closeBttnMdl:after {
+.closeBttnMdl:after,
+.closeBttnMdlDark::after {
   transform: rotate(-45deg);
 }
 
@@ -252,7 +285,8 @@ th {
     padding: 16px;
   }
 
-  .modal {
+  .modal,
+  .modalDarkMode {
     max-width: 300px;
   }
 }
@@ -276,7 +310,8 @@ th {
     right: 80px;
   }
 
-  .modal {
+  .modal,
+  .modalDarkMode {
     max-width: 500px;
   }
 

@@ -63,6 +63,7 @@ function lastUpdate() {
   document.getElementById("time").replaceChild(cloneUpdateDate, updateDate);
   console.log(date, "*******", time);
 }
+
 /**
  * Request to the CoinGecko API.
  * Promisify the request to avoid using
@@ -164,8 +165,15 @@ function displayData(data) {
   }
 }
 
+/**
+ * Change the dark mode and storing the preference in
+ * the local storage
+ */
 function changeDarkMode() {
   var darkBttn = document.getElementById("darkModeBttn");
+  var modalElm = document.getElementById("modalDesc");
+  var bttnMdlElem = document.getElementById("closeBttnMdl");
+
   darkBttn.addEventListener("click", () => {
     var checkMode = localStorage.getItem("DarkMode");
     const bodyElm = document.body;
@@ -173,33 +181,58 @@ function changeDarkMode() {
     if (checkMode === null) {
       localStorage.setItem("DarkMode", "On");
       bodyElm.className = "dark-mode";
+      modalElm.className = "modalDarkMode";
+      bttnMdlElem.className = "closeBttnMdlDark";
     } else if (checkMode === "On") {
       localStorage.removeItem("DarkMode");
       bodyElm.classList.remove("dark-mode");
+      modalElm.className = "modal";
+      bttnMdlElem.className = "closeBttnMdl";
     }
   });
 }
 
+/**
+ * Set the dark mode according to the user preferences that
+ * are stored in the local storage.
+ */
 function setDarkMode() {
   const inputCheck = document.getElementById("inputChkDrkMd");
   const checkMode = localStorage.getItem("DarkMode");
+  var bttnMdlElem = document.getElementById("closeBttnMdl");
+
+  var modalElm = document.getElementById("modalDesc");
+
   const bodyElm = document.body;
 
   if (checkMode === "On") {
     bodyElm.className = "dark-mode";
+    modalElm.className = "modalDarkMode";
+    bttnMdlElem.className = "closeBttnMdlDark";
+
     inputCheck.checked = true;
   } else {
     bodyElm.classList.remove("dark-mode");
+    modalElm.className = "modal";
+    bttnMdlElem.className = "closeBttnMdl";
   }
 }
 
+/**
+ * Get the id of the coin selected by the user
+ * and display the data in the modal accordingly to the
+ * cyptocurrency selected.
+ * @param {Object} event
+ */
 function displayModalPopUp(event) {
   const coinId = event.currentTarget.getAttribute("data-id");
-
   coinDetailInformation(coinId);
-  // overlayWindow();
 }
 
+/**
+ * Format and store the data in the modal form
+ * @param {Object} data
+ */
 function editModalInformation(data) {
   // Data
   const name = data.name;
@@ -249,11 +282,22 @@ function editModalInformation(data) {
   }
 }
 
+/**
+ * Check when the data is null
+ * @param {String} data
+ */
 function checkDataAva(data) {
   if (data === null) return 0;
   return data;
 }
 
+/**
+ * Get the data information of an specific cryptocurrency
+ * and call the methods "editModalInformation" to store the
+ * details on the modal, and also call the method "overlayWindow"
+ * to display the modal form with the complete data to the user.
+ * @param {String} coin
+ */
 function coinDetailInformation(coin) {
   Promise.resolve(true)
     .then(() => {
@@ -273,6 +317,9 @@ function coinDetailInformation(coin) {
     .then(() => overlayWindow());
 }
 
+/**
+ * Close the modal form.
+ */
 function closeModalWindow() {
   var overlay = document.getElementById("over");
   var closeBttn = document.getElementById("closeBttnMdl");
@@ -281,10 +328,19 @@ function closeModalWindow() {
     overlay.style.opacity = 0;
   });
 }
+
+/**
+ * Display the overlay and the modal when the user
+ * has clicked an item or coin on the table
+ */
 function overlayWindow() {
   var overlay = document.getElementById("over");
   var modalElem = document.getElementById("modalDesc");
+
+  //Overlay
   overlay.style.visibility = "visible";
   overlay.style.opacity = 1;
+
+  //Modal
   modalElem.style.maxHeight = "500px";
 }
