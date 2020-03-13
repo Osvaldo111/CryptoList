@@ -1,6 +1,8 @@
 /**
  * Initialize the app
  */
+
+var globalReqData;
 function init() {
   const url =
     "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false";
@@ -8,10 +10,14 @@ function init() {
   /**Initializing */
   requestToAPI(url)
     .then(data => {
-      console.log(data);
       displayData(data);
+      return data;
     })
-    .then(() => lastUpdate());
+    .then(data => {
+      globalReqData = data;
+    })
+    .then(() => lastUpdate())
+    .catch(error => console.log(error));
 
   /**Updating the table */
   setInterval(function() {
@@ -25,8 +31,8 @@ function init() {
   changeDarkMode();
   setDarkMode();
 
-  // Display the modal with more info
-  // displayModalPopUp();
+  // Close Modal Window
+  closeModalWindow();
 }
 init();
 
@@ -188,10 +194,93 @@ function setDarkMode() {
 }
 
 function displayModalPopUp(event) {
-  console.log(event.currentTarget.getAttribute("data-id"));
-  overlayWindow();
+  const coinId = event.currentTarget.getAttribute("data-id");
+
+  coinDetailInformation(coinId);
+  // overlayWindow();
 }
 
+function editModalInformation(data) {
+  // Data
+  const name = data.name;
+  const price = data.current_price;
+  const mktCap = data.market_cap;
+  const rank = data.market_cap_rank;
+  const totalVlm = data.total_volume;
+  const high24Hrs = data.high_24h;
+  const low24Hrs = data.low_24h;
+  const priceChgPerc24Hrs = data.price_change_percentage_24h;
+  const circulationSupply = data.circulating_supply;
+  const totalSupply = data.total_supply;
+
+  // Node Elements
+  const mdlName = document.getElementById("mdlName");
+  const mdlPrice = document.getElementById("mdlPrice");
+  const mdlMktCap = document.getElementById("mdlMktCap");
+  const mdlRank = document.getElementById("mdlRank");
+  const mdlTraVlm = document.getElementById("mdlTraVlm");
+  const mdlHighLow = document.getElementById("mdlHighLow");
+  const mdlPriceChg = document.getElementById("mdlPriceChg");
+  const mdlCirulation = document.getElementById("mdlCirulation");
+
+  // Change value of nodes
+  mdlName.innerHTML = name;
+  mdlPrice.innerHTML = "$" + price.toLocaleString("en-US");
+  mdlMktCap.innerHTML = "$" + mktCap.toLocaleString("en-US");
+  mdlRank.innerHTML = "#" + rank;
+  mdlTraVlm.innerHTML = "$" + checkDataAva(totalVlm).toLocaleString("en-US");
+  mdlHighLow.innerHTML =
+    "$" +
+    checkDataAva(high24Hrs).toLocaleString("en-US") +
+    " / " +
+    "$" +
+    checkDataAva(low24Hrs).toLocaleString("en-US");
+  mdlPriceChg.innerHTML = priceChgPerc24Hrs.toFixed(2) + "%";
+  mdlCirulation.innerHTML =
+    checkDataAva(circulationSupply).toLocaleString("en-US") +
+    " / " +
+    checkDataAva(totalSupply).toLocaleString("en-US");
+
+  // Add Class
+  if (priceChgPerc24Hrs < 0) {
+    mdlPriceChg.className = "mdlNegVal";
+  } else {
+    mdlPriceChg.className = "mdlPosVal";
+  }
+}
+
+function checkDataAva(data) {
+  if (data === null) return 0;
+  return data;
+}
+
+function coinDetailInformation(coin) {
+  Promise.resolve(true)
+    .then(() => {
+      // Get the coin information from the general data
+      var data;
+      for (let index = 0; index < globalReqData.length; index++) {
+        if (globalReqData[index].id === coin) {
+          data = globalReqData[index];
+        }
+      }
+
+      return data;
+    })
+    .then(data => {
+      editModalInformation(data);
+    })
+    .then(() => overlayWindow());
+}
+
+function closeModalWindow() {
+  var overlay = document.getElementById("over");
+  var closeBttn = document.getElementById("closeBttnMdl");
+  closeBttn.addEventListener("click", () => {
+    overlay.style.visibility = "hidden";
+    overlay.style.opacity = 0;
+  });
+}
 function overlayWindow() {
   var overlay = document.getElementById("over");
   var modalElem = document.getElementById("modalDesc");

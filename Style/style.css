@@ -40,10 +40,12 @@ body {
   display: inline-block;
   width: 150px;
 }
-.negativePriceChange {
+.negativePriceChange,
+.mdlNegVal {
   color: red;
 }
-.positivePriceChange {
+.positivePriceChange,
+.mdlPosVal {
   color: green;
 }
 table {
@@ -56,8 +58,7 @@ td,
 th {
   border-bottom: 1px solid #dddddd;
   text-align: left;
-
-  padding: 8px;
+  padding: 6px;
 }
 
 .timeUpdate {
@@ -193,14 +194,52 @@ th {
   top: 40px;
   left: 0;
   right: 0;
-  width: 200px;
-  max-height: 0;
+  max-width: 200px;
   margin: 0 auto;
   padding: 30px;
   background: #fff;
   border-radius: 4px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
   transition: max-height 1.5s;
+}
+
+.tableMdl {
+  width: 0;
+  margin: 0 auto;
+}
+
+.tableMdl td {
+  padding: 9px 0;
+}
+
+/*
+* Close Bttn Modal
+*/
+.closeBttnMdl {
+  position: absolute;
+  right: 30px;
+  top: 10px;
+  width: 18px;
+  height: 18px;
+  opacity: 0.6;
+}
+.closeBttnMdl:hover {
+  opacity: 1;
+}
+.closeBttnMdl:before,
+.closeBttnMdl:after {
+  position: absolute;
+  left: 15px;
+  content: " ";
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+.closeBttnMdl:before {
+  transform: rotate(45deg);
+}
+.closeBttnMdl:after {
+  transform: rotate(-45deg);
 }
 
 /*
@@ -211,6 +250,10 @@ th {
   td,
   th {
     padding: 16px;
+  }
+
+  .modal {
+    max-width: 300px;
   }
 }
 
@@ -231,6 +274,14 @@ th {
     position: absolute;
     top: 30px;
     right: 80px;
+  }
+
+  .modal {
+    max-width: 500px;
+  }
+
+  .tableMdl {
+    width: 100%;
   }
 }
 
