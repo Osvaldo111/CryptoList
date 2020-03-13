@@ -7,7 +7,10 @@ function init() {
 
   /**Initializing */
   requestToAPI(url)
-    .then(data => displayData(data))
+    .then(data => {
+      console.log(data);
+      displayData(data);
+    })
     .then(() => lastUpdate());
 
   /**Updating the table */
@@ -16,25 +19,17 @@ function init() {
       .then(data => displayData(data))
       .then(() => lastUpdate())
       .catch(error => console.log(error));
-  }, 10000);
+  }, 1000000000 /*10000*/);
+
+  //DarkMode
+  changeDarkMode();
+  setDarkMode();
+
+  // Display the modal with more info
+  // displayModalPopUp();
 }
 init();
 
-/**
- * Erase the previous data from the table
- */
-// function erasePreviousData() {
-//   var tableRows = document.getElementById("table").rows.length;
-//   var tableParent = document.getElementById("table-content");
-//   tableParent.innerHTML = "";
-//   if (tableRows > 1) {
-//     console.log("Entertinf the if ", tableRows);
-//     do {
-//       tableRows--;
-//       tableParent.deleteRow(tableRows);
-//     } while (tableRows > 1);
-//   }
-// }
 /**
  * LastUpdate
  */
@@ -93,6 +88,11 @@ function displayData(data) {
   for (let index = 0; index < data.length; index++) {
     // Create the row
     var parentTr = document.createElement("tr");
+    parentTr.id = data[index].id;
+    parentTr.setAttribute("data-id", data[index].id);
+    parentTr.addEventListener("click", event => {
+      displayModalPopUp(event);
+    });
 
     // Append the Rank id to the row
     var rankTd = document.createElement("td");
@@ -117,6 +117,7 @@ function displayData(data) {
     parentTr.append(coin);
     // Coin Symbol
     var coinSymbol = document.createElement("span");
+    coinSymbol.className = "coinSym";
     coinSymbol.append(data[index].symbol.toUpperCase());
     coin.append(coinSymbol);
     parentTr.append(coin);
@@ -142,6 +143,7 @@ function displayData(data) {
 
     // Append the Market Cap data to the table
     var mktCaptTd = document.createElement("td");
+    mktCaptTd.className = "mktCap";
     mktCaptTd.append("$" + data[index].market_cap.toLocaleString("en-US"));
     parentTr.append(mktCaptTd);
     fragment.append(parentTr);
@@ -154,4 +156,46 @@ function displayData(data) {
   } else {
     tableBody.append(fragment);
   }
+}
+
+function changeDarkMode() {
+  var darkBttn = document.getElementById("darkModeBttn");
+  darkBttn.addEventListener("click", () => {
+    var checkMode = localStorage.getItem("DarkMode");
+    const bodyElm = document.body;
+
+    if (checkMode === null) {
+      localStorage.setItem("DarkMode", "On");
+      bodyElm.className = "dark-mode";
+    } else if (checkMode === "On") {
+      localStorage.removeItem("DarkMode");
+      bodyElm.classList.remove("dark-mode");
+    }
+  });
+}
+
+function setDarkMode() {
+  const inputCheck = document.getElementById("inputChkDrkMd");
+  const checkMode = localStorage.getItem("DarkMode");
+  const bodyElm = document.body;
+
+  if (checkMode === "On") {
+    bodyElm.className = "dark-mode";
+    inputCheck.checked = true;
+  } else {
+    bodyElm.classList.remove("dark-mode");
+  }
+}
+
+function displayModalPopUp(event) {
+  console.log(event.currentTarget.getAttribute("data-id"));
+  overlayWindow();
+}
+
+function overlayWindow() {
+  var overlay = document.getElementById("over");
+  var modalElem = document.getElementById("modalDesc");
+  overlay.style.visibility = "visible";
+  overlay.style.opacity = 1;
+  modalElem.style.maxHeight = "500px";
 }

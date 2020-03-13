@@ -18,24 +18,32 @@
     />
   </head>
   <body>
-    <h1 class="center">Crypto List</h1>
-    <p class="center">
-      The top 100 Cryptocurrencies according to the Market Cap
-    </p>
-    <!-- <p class="timeUpdate"><div >Last Update: <span id="lastUpdate"></span></div></p> -->
-    <div class="timeUpdate">
-      <div id="time">
-        Last Update: <span id="lastUpdate" class="timeUpdateColor"></span>
+    <div class="container-top">
+      <h1 class="center">Crypto List</h1>
+      <p class="center">
+        The top 100 Cryptocurrencies according to the Market Cap
+      </p>
+      <!-- <p class="timeUpdate"><div >Last Update: <span id="lastUpdate"></span></div></p> -->
+      <div class="timeUpdate">
+        <div id="time">
+          Last Update: <span id="lastUpdate" class="timeUpdateColor"></span>
+        </div>
+      </div>
+      <p class="center">
+        The data is updated every 10 seconds and sorted according to the current
+        Market Cap
+      </p>
+      <div class="toggleBttnCont">
+        <p>Dark Mode</p>
+        <label class="switch">
+          <input type="checkbox" class="inputDarkBttn" id="inputChkDrkMd" />
+          <span class="slider" id="darkModeBttn"></span>
+        </label>
       </div>
     </div>
-    <p class="center">
-      The data is updated every 10 seconds and sorted according to the current
-      Market Cap
-    </p>
     <div class="container">
       <table id="table">
         <thead>
-          s
           <tr>
             <th id="rank">Rank #</th>
             <!--Market Cap Rank-->
@@ -43,14 +51,22 @@
             <!-- Id, Image and Symbol-->
             <th id="price">Price USD</th>
             <!-- Current price-->
-            <th id="priceChange">24h</th>
+            <th id="priceChange" class="priceChangeHd">24h</th>
             <!-- price_change_percentage_24-->
-            <th id="marketCap">Mkt Cap</th>
+            <th id="marketCap" class="mktCapHd">Mkt Cap</th>
             <!-- market_cap-->
           </tr>
         </thead>
-        <tbody id="table-content"></tbody>
+        <tbody id="table-content" class="tableCont"></tbody>
       </table>
+    </div>
+    <div class="overlay" id="over">
+      <div class="modal" id="modalDesc">
+        <p>kjfkjefk</p>
+        <p>fjekjfk</p>
+        <p>kjfeknf</p>
+        <p>hkfhkhf</p>
+      </div>
     </div>
     <!-- <img src="../Resources/Waterfall_model.png" alt="" id="imgTest">
     <img style="background-color: aqua;" id="test"></img> -->

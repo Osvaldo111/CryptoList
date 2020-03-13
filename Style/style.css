@@ -3,10 +3,8 @@
   padding: 0;
 }
 html {
-  /* background-color: #002d6d; */
   height: 100vh;
   font-family: "Baloo Bhai", sans-serif;
-  /* color: white; */
 }
 
 body {
@@ -22,7 +20,14 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 50px;
-  /* background-color: aqua; */
+}
+
+.container-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 10px;
 }
 
 .coinImage {
@@ -51,30 +56,184 @@ td,
 th {
   border-bottom: 1px solid #dddddd;
   text-align: left;
-  padding: 16px;
+
+  padding: 8px;
 }
 
 .timeUpdate {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 14px;
+}
+.coinSym,
+.negativePriceChange,
+.positivePriceChange,
+.priceChangeHd,
+.mktCapHd,
+.mktCap {
+  display: none;
 }
 
+.tableCont > tr:hover {
+  /* color: red; */
+  cursor: pointer;
+  background-color: #cccc;
+}
+#table
 /**
 * Animation for the time Update
 */
 .timeUpdateColor {
-  background-color: white;
   animation-name: changeColor;
   animation-duration: 2s;
-  /* animation: changeColor 2s ease infinite; */
 }
 
 @keyframes changeColor {
   from {
-    background-color: white;
+    background-color: transparent;
   }
   to {
     background-color: #f2a900;
   }
+}
+
+/*
+* Toggle Button
+*/
+
+.toggleBttnCont {
+  /* position: absolute;
+  top: 30px;
+  right: 80px; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+.inputDarkBttn:checked + .slider {
+  background-color: #ccc;
+}
+
+.inputDarkBttn:focus + .slider {
+  /* box-shadow: 0 0 10px #2196f3; */
+}
+
+.inputDarkBttn:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/*
+* Dark and Light Mode
+*/
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+/*
+* Overlay Modal
+*/
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+/** Modal */
+.modal {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  width: 200px;
+  max-height: 0;
+  margin: 0 auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  transition: max-height 1.5s;
+}
+
+/*
+* Media Queries
+*/
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  td,
+  th {
+    padding: 16px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .negativePriceChange,
+  .positivePriceChange,
+  .priceChangeHd,
+  .mktCapHd,
+  .mktCap {
+    display: table-cell;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .toggleBttnCont {
+    position: absolute;
+    top: 30px;
+    right: 80px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
 }
