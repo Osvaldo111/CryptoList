@@ -173,6 +173,7 @@ function changeDarkMode() {
   var darkBttn = document.getElementById("darkModeBttn");
   var modalElm = document.getElementById("modalDesc");
   var bttnMdlElem = document.getElementById("closeBttnMdl");
+  var containerTopElm = document.getElementById("containerTop");
 
   darkBttn.addEventListener("click", () => {
     var checkMode = localStorage.getItem("DarkMode");
@@ -183,11 +184,13 @@ function changeDarkMode() {
       bodyElm.className = "dark-mode";
       modalElm.className = "modalDarkMode";
       bttnMdlElem.className = "closeBttnMdlDark";
+      containerTopElm.style.backgroundColor = "#000000";
     } else if (checkMode === "On") {
       localStorage.removeItem("DarkMode");
       bodyElm.classList.remove("dark-mode");
       modalElm.className = "modal";
       bttnMdlElem.className = "closeBttnMdl";
+      containerTopElm.style.backgroundColor = "#002b58";
     }
   });
 }
@@ -200,8 +203,8 @@ function setDarkMode() {
   const inputCheck = document.getElementById("inputChkDrkMd");
   const checkMode = localStorage.getItem("DarkMode");
   var bttnMdlElem = document.getElementById("closeBttnMdl");
-
   var modalElm = document.getElementById("modalDesc");
+  var containerTopElm = document.getElementById("containerTop");
 
   const bodyElm = document.body;
 
@@ -209,12 +212,14 @@ function setDarkMode() {
     bodyElm.className = "dark-mode";
     modalElm.className = "modalDarkMode";
     bttnMdlElem.className = "closeBttnMdlDark";
+    containerTopElm.style.backgroundColor = "#000000";
 
     inputCheck.checked = true;
   } else {
     bodyElm.classList.remove("dark-mode");
     modalElm.className = "modal";
     bttnMdlElem.className = "closeBttnMdl";
+    containerTopElm.style.backgroundColor = "#002b58";
   }
 }
 

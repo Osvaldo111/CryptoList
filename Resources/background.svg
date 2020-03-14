@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="606.91" height="390.196" viewBox="0 0 606.91 390.196">
+  <defs>
+    <filter id="Path_139" x="0" y="0" width="48.45" height="48.45" filterUnits="userSpaceOnUse">
+      <feOffset dx="10.277" dy="10.277" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8.075" result="blur"/>
+      <feFlood flood-opacity="0.369"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="595.819" height="387.572" rx="12.774" transform="translate(77.091 56.214)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <circle id="Ellipse_6" data-name="Ellipse 6" cx="42.954" cy="42.954" r="42.954" transform="translate(141.532 485.146) rotate(-80.703)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="OBJECTS" transform="translate(-66.232 -53.657)">
+    <g id="Group_59" data-name="Group 59">
+      <g id="Group_3" data-name="Group 3" transform="translate(-3 -8)">
+        <g transform="matrix(1, 0, 0, 1, 69.23, 61.66)" filter="url(#Path_139)">
+          <path id="Path_139-2" data-name="Path 139" d="M0,12.465Z" transform="translate(13.95 1.48)" fill="#f9fbfc" opacity="0.68"/>
+        </g>
+      </g>
+      <path id="Path_1" data-name="Path 1" d="M77.091,443.786c.388.151,5.719,0,12.774,0h583.27c.055,0-.226-5.719-.226-12.775V226.779c-28.762-9.077-78.242-17.94-140.326-2.187C441.569,247.685,257.055,433.168,77.091,381.055Z" fill="#3369ff"/>
+      <g id="Group_56" data-name="Group 56">
+        <g id="Group_55" data-name="Group 55" clip-path="url(#clip-path)">
+          <g id="Group_54" data-name="Group 54">
+            <path id="Path_11" data-name="Path 11" d="M432.29,173.907a8.813,8.813,0,1,1,8.813-8.813A8.813,8.813,0,0,1,432.29,173.907Zm0-15.108a6.3,6.3,0,1,0,6.3,6.295,6.3,6.3,0,0,0-6.3-6.295Z" fill="#3369ff"/>
+            <circle id="Ellipse_1" data-name="Ellipse 1" cx="24.667" cy="24.667" r="24.667" transform="matrix(0.673, -0.739, 0.739, 0.673, 534.487, 219.293)" fill="#fff"/>
+            <circle id="Ellipse_2" data-name="Ellipse 2" cx="34" cy="34" r="34" transform="translate(425 319)" fill="#2c58d5"/>
+            <circle id="Ellipse_3" data-name="Ellipse 3" cx="5.25" cy="5.25" r="5.25" transform="translate(606 196)" fill="#2a57d4" opacity="0.88"/>
+            <g id="Group_53" data-name="Group 53">
+              <circle id="Ellipse_5" data-name="Ellipse 5" cx="29" cy="29" r="29" transform="translate(217 28)" fill="#f9fbfc"/>
+              <g id="Group_52" data-name="Group 52">
+                <g id="Group_50" data-name="Group 50" opacity="0.21">
+                  <g id="Group_49" data-name="Group 49" clip-path="url(#clip-path-2)">
+                    <g id="Group_48" data-name="Group 48">
+                      <g id="Group_34" data-name="Group 34">
+                        <g id="Group_25" data-name="Group 25">
+                          <g id="Group_22" data-name="Group 22">
+                            <path id="Path_12" data-name="Path 12" d="M122.287,429.543a1.684,1.684,0,1,1-1.684,1.684,1.684,1.684,0,0,1,1.684-1.684Z" fill="#fff"/>
+                            <path id="Path_13" data-name="Path 13" d="M132.816,429.543a1.684,1.684,0,1,1-1.685,1.684,1.684,1.684,0,0,1,1.685-1.684Z" fill="#fff"/>
+                            <path id="Path_14" data-name="Path 14" d="M143.344,429.543a1.684,1.684,0,1,1-1.685,1.684,1.684,1.684,0,0,1,1.685-1.684Z" fill="#fff"/>
+                            <path id="Path_15" data-name="Path 15" d="M153.872,429.543a1.684,1.684,0,1,1-1.684,1.684A1.684,1.684,0,0,1,153.872,429.543Z" fill="#fff"/>
+                            <path id="Path_16" data-name="Path 16" d="M164.4,429.543a1.684,1.684,0,1,1-1.685,1.684,1.684,1.684,0,0,1,1.685-1.684Z" fill="#fff"/>
+                            <path id="Path_17" data-name="Path 17" d="M174.929,429.543a1.684,1.684,0,1,1-1.684,1.684,1.684,1.684,0,0,1,1.684-1.684Z" fill="#fff"/>
+                            <path id="Path_18" data-name="Path 18" d="M185.458,429.543a1.684,1.684,0,1,1-1.685,1.684,1.684,1.684,0,0,1,1.685-1.684Z" fill="#fff"/>
+                          </g>
+                          <g id="Group_23" data-name="Group 23">
+                            <path id="Path_19" data-name="Path 19" d="M122.287,420.278a1.684,1.684,0,1,1-1.684,1.684,1.684,1.684,0,0,1,1.684-1.684Z" fill="#fff"/>
+                            <path id="Path_20" data-name="Path 20" d="M132.816,420.278a1.684,1.684,0,1,1-1.685,1.684,1.684,1.684,0,0,1,1.685-1.684Z" fill="#fff"/>
+                            <path id="Path_21" data-name="Path 21" d="M143.344,420.278a1.684,1.684,0,1,1-1.685,1.684,1.684,1.684,0,0,1,1.685-1.684Z" fill="#fff"/>
+                            <path id="Path_22" data-name="Path 22" d="M153.872,420.278a1.684,1.684,0,1,1-1.684,1.684A1.684,1.684,0,0,1,153.872,420.278Z" fill="#fff"/>
+                            <path id="Path_23" data-name="Path 23" d="M164.4,420.278a1.684,1.684,0,1,1-1.685,1.684,1.684,1.684,0,0,1,1.685-1.684Z" fill="#fff"/>
+                            <path id="Path_24" data-name="Path 24" d="M174.929,420.278a1.684,1.684,0,1,1-1.684,1.684,1.684,1.684,0,0,1,1.684-1.684Z" fill="#fff"/>
+                            <path id="Path_25" data-name="Path 25" d="M185.458,420.278a1.684,1.684,0,1,1-1.685,1.684,1.684,1.684,0,0,1,1.685-1.684Z" fill="#fff"/>
+                          </g>
+                          <g id="Group_24" data-name="Group 24">
+                            <path id="Path_26" data-name="Path 26" d="M122.287,411.013a1.684,1.684,0,1,1-1.194.493,1.684,1.684,0,0,1,1.194-.493Z" fill="#fff"/>
+                            <path id="Path_27" data-name="Path 27" d="M132.816,411.013a1.684,1.684,0,1,1-1.685,1.684,1.684,1.684,0,0,1,1.685-1.684Z" fill="#fff"/>
+                            <path id="Path_28" data-name="Path 28" d="M143.344,411.013a1.684,1.684,0,1,1-1.685,1.684,1.684,1.684,0,0,1,1.685-1.684Z" fill="#fff"/>
+                            <path id="Path_29" data-name="Path 29" d="M153.872,411.013a1.684,1.684,0,1,1-1.684,1.684,1.684,1.684,0,0,1,1.684-1.684Z" fill="#fff"/>
+                            <path id="Path_30" data-name="Path 30" d="M164.4,411.013a1.684,1.684,0,1,1-1.685,1.684,1.684,1.684,0,0,1,1.685-1.684Z" fill="#fff"/>
+                            <path id="Path_31" data-name="Path 31" d="M174.929,411.013a1.684,1.684,0,1,1-1.684,1.684,1.684,1.684,0,0,1,1.684-1.684Z" fill="#fff"/>
+                            <path id="Path_32" data-name="Path 32" d="M185.458,411.013a1.684,1.684,0,1,1-1.685,1.684,1.684,1.684,0,0,1,1.685-1.684Z" fill="#fff"/>
+                          </g>
+                        </g>
+                        <g id="Group_29" data-name="Group 29">
+                          <g id="Group_26" data-name="Group 26">
+                            <path id="Path_33" data-name="Path 33" d="M122.287,457.08a1.685,1.685,0,1,1-1.684,1.685,1.685,1.685,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_34" data-name="Path 34" d="M132.816,457.08a1.684,1.684,0,1,1-1.192.493A1.685,1.685,0,0,1,132.816,457.08Z" fill="#fff"/>
+                            <path id="Path_35" data-name="Path 35" d="M143.344,457.08a1.685,1.685,0,1,1-1.685,1.685A1.685,1.685,0,0,1,143.344,457.08Z" fill="#fff"/>
+                            <path id="Path_36" data-name="Path 36" d="M153.872,457.08a1.685,1.685,0,1,1-1.684,1.685,1.685,1.685,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_37" data-name="Path 37" d="M164.4,457.08a1.684,1.684,0,1,1-1.192.493A1.685,1.685,0,0,1,164.4,457.08Z" fill="#fff"/>
+                            <path id="Path_38" data-name="Path 38" d="M174.929,457.08a1.685,1.685,0,1,1-1.684,1.685,1.685,1.685,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_39" data-name="Path 39" d="M185.458,457.08a1.684,1.684,0,1,1-1.192.493A1.685,1.685,0,0,1,185.458,457.08Z" fill="#fff"/>
+                          </g>
+                          <g id="Group_27" data-name="Group 27">
+                            <path id="Path_40" data-name="Path 40" d="M122.287,447.815a1.684,1.684,0,1,1-1.193.493,1.684,1.684,0,0,1,1.193-.493Z" fill="#fff"/>
+                            <path id="Path_41" data-name="Path 41" d="M132.816,447.815a1.684,1.684,0,1,1-1.192.493,1.684,1.684,0,0,1,1.192-.493Z" fill="#fff"/>
+                            <path id="Path_42" data-name="Path 42" d="M143.344,447.815a1.684,1.684,0,1,1-1.685,1.685,1.684,1.684,0,0,1,1.685-1.685Z" fill="#fff"/>
+                            <path id="Path_43" data-name="Path 43" d="M153.872,447.815a1.684,1.684,0,1,1-1.684,1.685,1.684,1.684,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_44" data-name="Path 44" d="M164.4,447.815a1.684,1.684,0,1,1-1.685,1.685,1.684,1.684,0,0,1,1.685-1.685Z" fill="#fff"/>
+                            <path id="Path_45" data-name="Path 45" d="M174.929,447.815a1.684,1.684,0,1,1-1.684,1.685,1.684,1.684,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_46" data-name="Path 46" d="M185.458,447.815a1.684,1.684,0,1,1-1.192.493,1.684,1.684,0,0,1,1.192-.493Z" fill="#fff"/>
+                          </g>
+                          <g id="Group_28" data-name="Group 28">
+                            <path id="Path_47" data-name="Path 47" d="M122.287,438.55a1.685,1.685,0,1,1-1.684,1.685,1.685,1.685,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_48" data-name="Path 48" d="M132.816,438.55a1.684,1.684,0,1,1-1.192.493,1.685,1.685,0,0,1,1.192-.493Z" fill="#fff"/>
+                            <path id="Path_49" data-name="Path 49" d="M143.344,438.55a1.685,1.685,0,1,1-1.685,1.685A1.685,1.685,0,0,1,143.344,438.55Z" fill="#fff"/>
+                            <path id="Path_50" data-name="Path 50" d="M153.872,438.55a1.685,1.685,0,1,1-1.684,1.685,1.685,1.685,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_51" data-name="Path 51" d="M164.4,438.55a1.684,1.684,0,1,1-1.192.493,1.685,1.685,0,0,1,1.192-.493Z" fill="#fff"/>
+                            <path id="Path_52" data-name="Path 52" d="M174.929,438.55a1.685,1.685,0,1,1-1.684,1.685,1.685,1.685,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_53" data-name="Path 53" d="M185.458,438.55a1.684,1.684,0,1,1-1.192.493,1.685,1.685,0,0,1,1.192-.493Z" fill="#fff"/>
+                          </g>
+                        </g>
+                        <g id="Group_33" data-name="Group 33">
+                          <g id="Group_30" data-name="Group 30">
+                            <path id="Path_54" data-name="Path 54" d="M122.287,484.617A1.685,1.685,0,1,1,120.6,486.3,1.685,1.685,0,0,1,122.287,484.617Z" fill="#fff"/>
+                            <path id="Path_55" data-name="Path 55" d="M132.816,484.617a1.685,1.685,0,1,1-1.685,1.685,1.685,1.685,0,0,1,1.685-1.685Z" fill="#fff"/>
+                            <path id="Path_56" data-name="Path 56" d="M143.344,484.617a1.685,1.685,0,1,1-1.685,1.685A1.685,1.685,0,0,1,143.344,484.617Z" fill="#fff"/>
+                            <path id="Path_57" data-name="Path 57" d="M153.872,484.617a1.685,1.685,0,1,1-1.684,1.685,1.685,1.685,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_58" data-name="Path 58" d="M164.4,484.617a1.685,1.685,0,1,1-1.685,1.685A1.685,1.685,0,0,1,164.4,484.617Z" fill="#fff"/>
+                            <path id="Path_59" data-name="Path 59" d="M174.929,484.617a1.685,1.685,0,1,1-1.684,1.685,1.685,1.685,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_60" data-name="Path 60" d="M185.458,484.617a1.685,1.685,0,1,1-1.685,1.685A1.685,1.685,0,0,1,185.458,484.617Z" fill="#fff"/>
+                          </g>
+                          <g id="Group_31" data-name="Group 31">
+                            <path id="Path_61" data-name="Path 61" d="M122.287,475.352a1.685,1.685,0,1,1-1.684,1.685,1.685,1.685,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_62" data-name="Path 62" d="M132.816,475.352a1.685,1.685,0,1,1-1.685,1.685,1.685,1.685,0,0,1,1.685-1.685Z" fill="#fff"/>
+                            <path id="Path_63" data-name="Path 63" d="M143.344,475.352a1.685,1.685,0,1,1-1.685,1.685,1.685,1.685,0,0,1,1.685-1.685Z" fill="#fff"/>
+                            <path id="Path_64" data-name="Path 64" d="M153.872,475.352a1.685,1.685,0,1,1-1.684,1.685,1.685,1.685,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_65" data-name="Path 65" d="M164.4,475.352a1.685,1.685,0,1,1-1.685,1.685,1.685,1.685,0,0,1,1.685-1.685Z" fill="#fff"/>
+                            <path id="Path_66" data-name="Path 66" d="M174.929,475.352a1.685,1.685,0,1,1-1.684,1.685,1.685,1.685,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_67" data-name="Path 67" d="M185.458,475.352a1.685,1.685,0,1,1-1.685,1.685,1.685,1.685,0,0,1,1.685-1.685Z" fill="#fff"/>
+                          </g>
+                          <g id="Group_32" data-name="Group 32">
+                            <path id="Path_68" data-name="Path 68" d="M122.287,466.087a1.685,1.685,0,1,1-1.684,1.685,1.685,1.685,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_69" data-name="Path 69" d="M132.816,466.087a1.685,1.685,0,1,1-1.685,1.685,1.685,1.685,0,0,1,1.685-1.685Z" fill="#fff"/>
+                            <path id="Path_70" data-name="Path 70" d="M143.344,466.087a1.685,1.685,0,1,1-1.685,1.685A1.685,1.685,0,0,1,143.344,466.087Z" fill="#fff"/>
+                            <path id="Path_71" data-name="Path 71" d="M153.872,466.087a1.685,1.685,0,1,1-1.684,1.685,1.685,1.685,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_72" data-name="Path 72" d="M164.4,466.087a1.685,1.685,0,1,1-1.685,1.685,1.685,1.685,0,0,1,1.685-1.685Z" fill="#fff"/>
+                            <path id="Path_73" data-name="Path 73" d="M174.929,466.087a1.685,1.685,0,1,1-1.684,1.685,1.685,1.685,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_74" data-name="Path 74" d="M185.458,466.087a1.685,1.685,0,1,1-1.685,1.685,1.685,1.685,0,0,1,1.685-1.685Z" fill="#fff"/>
+                          </g>
+                        </g>
+                      </g>
+                      <g id="Group_47" data-name="Group 47">
+                        <g id="Group_38" data-name="Group 38">
+                          <g id="Group_35" data-name="Group 35">
+                            <path id="Path_75" data-name="Path 75" d="M193.6,429.543a1.684,1.684,0,1,1-1.685,1.684,1.684,1.684,0,0,1,1.685-1.684Z" fill="#fff"/>
+                            <path id="Path_76" data-name="Path 76" d="M204.128,429.543a1.684,1.684,0,1,1-1.685,1.684,1.684,1.684,0,0,1,1.685-1.684Z" fill="#fff"/>
+                            <path id="Path_77" data-name="Path 77" d="M214.656,429.543a1.684,1.684,0,1,1-1.684,1.684A1.684,1.684,0,0,1,214.656,429.543Z" fill="#fff"/>
+                            <path id="Path_78" data-name="Path 78" d="M225.185,429.543a1.684,1.684,0,1,1-1.685,1.684,1.684,1.684,0,0,1,1.685-1.684Z" fill="#fff"/>
+                            <path id="Path_79" data-name="Path 79" d="M235.713,429.543a1.684,1.684,0,1,1-1.684,1.684,1.684,1.684,0,0,1,1.684-1.684Z" fill="#fff"/>
+                            <path id="Path_80" data-name="Path 80" d="M246.241,429.543a1.684,1.684,0,1,1-1.684,1.684A1.684,1.684,0,0,1,246.241,429.543Z" fill="#fff"/>
+                            <path id="Path_81" data-name="Path 81" d="M256.77,429.543a1.684,1.684,0,1,1-1.685,1.684,1.684,1.684,0,0,1,1.685-1.684Z" fill="#fff"/>
+                          </g>
+                          <g id="Group_36" data-name="Group 36">
+                            <path id="Path_82" data-name="Path 82" d="M193.6,420.278a1.684,1.684,0,1,1-1.685,1.684,1.684,1.684,0,0,1,1.685-1.684Z" fill="#fff"/>
+                            <path id="Path_83" data-name="Path 83" d="M204.128,420.278a1.684,1.684,0,1,1-1.685,1.684,1.684,1.684,0,0,1,1.685-1.684Z" fill="#fff"/>
+                            <path id="Path_84" data-name="Path 84" d="M214.656,420.278a1.684,1.684,0,1,1-1.684,1.684A1.684,1.684,0,0,1,214.656,420.278Z" fill="#fff"/>
+                            <path id="Path_85" data-name="Path 85" d="M225.185,420.278a1.684,1.684,0,1,1-1.685,1.684,1.684,1.684,0,0,1,1.685-1.684Z" fill="#fff"/>
+                            <path id="Path_86" data-name="Path 86" d="M235.713,420.278a1.684,1.684,0,1,1-1.684,1.684,1.684,1.684,0,0,1,1.684-1.684Z" fill="#fff"/>
+                            <path id="Path_87" data-name="Path 87" d="M246.241,420.278a1.684,1.684,0,1,1-1.684,1.684A1.684,1.684,0,0,1,246.241,420.278Z" fill="#fff"/>
+                            <path id="Path_88" data-name="Path 88" d="M256.77,420.278a1.684,1.684,0,1,1-1.685,1.684,1.684,1.684,0,0,1,1.685-1.684Z" fill="#fff"/>
+                          </g>
+                          <g id="Group_37" data-name="Group 37">
+                            <path id="Path_89" data-name="Path 89" d="M193.6,411.013a1.684,1.684,0,1,1-1.685,1.684,1.684,1.684,0,0,1,1.685-1.684Z" fill="#fff"/>
+                            <path id="Path_90" data-name="Path 90" d="M204.128,411.013a1.684,1.684,0,1,1-1.685,1.684,1.684,1.684,0,0,1,1.685-1.684Z" fill="#fff"/>
+                            <path id="Path_91" data-name="Path 91" d="M214.656,411.013a1.684,1.684,0,1,1-1.684,1.684,1.684,1.684,0,0,1,1.684-1.684Z" fill="#fff"/>
+                            <path id="Path_92" data-name="Path 92" d="M225.185,411.013a1.684,1.684,0,1,1-1.192.494A1.684,1.684,0,0,1,225.185,411.013Z" fill="#fff"/>
+                            <path id="Path_93" data-name="Path 93" d="M235.713,411.013a1.684,1.684,0,1,1-1.684,1.684,1.684,1.684,0,0,1,1.684-1.684Z" fill="#fff"/>
+                            <path id="Path_94" data-name="Path 94" d="M246.241,411.013a1.684,1.684,0,1,1-1.684,1.684,1.684,1.684,0,0,1,1.684-1.684Z" fill="#fff"/>
+                            <path id="Path_95" data-name="Path 95" d="M256.77,411.013a1.684,1.684,0,1,1-1.685,1.684,1.684,1.684,0,0,1,1.685-1.684Z" fill="#fff"/>
+                          </g>
+                        </g>
+                        <g id="Group_42" data-name="Group 42">
+                          <g id="Group_39" data-name="Group 39">
+                            <path id="Path_96" data-name="Path 96" d="M193.6,457.08a1.684,1.684,0,1,1-1.192.493A1.685,1.685,0,0,1,193.6,457.08Z" fill="#fff"/>
+                            <path id="Path_97" data-name="Path 97" d="M204.128,457.08a1.684,1.684,0,1,1-1.192.493A1.685,1.685,0,0,1,204.128,457.08Z" fill="#fff"/>
+                            <path id="Path_98" data-name="Path 98" d="M214.656,457.08a1.685,1.685,0,1,1-1.684,1.685,1.685,1.685,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_99" data-name="Path 99" d="M225.185,457.08a1.684,1.684,0,1,1-1.192.493A1.685,1.685,0,0,1,225.185,457.08Z" fill="#fff"/>
+                            <path id="Path_100" data-name="Path 100" d="M235.713,457.08a1.685,1.685,0,1,1-1.684,1.685,1.685,1.685,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_101" data-name="Path 101" d="M246.241,457.08a1.685,1.685,0,1,1-1.684,1.685,1.685,1.685,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_102" data-name="Path 102" d="M256.77,457.08a1.684,1.684,0,1,1-1.192.493A1.685,1.685,0,0,1,256.77,457.08Z" fill="#fff"/>
+                          </g>
+                          <g id="Group_40" data-name="Group 40">
+                            <path id="Path_103" data-name="Path 103" d="M193.6,447.815a1.684,1.684,0,1,1-1.192.493,1.684,1.684,0,0,1,1.192-.493Z" fill="#fff"/>
+                            <path id="Path_104" data-name="Path 104" d="M204.128,447.815a1.684,1.684,0,1,1-1.192.493,1.684,1.684,0,0,1,1.192-.493Z" fill="#fff"/>
+                            <path id="Path_105" data-name="Path 105" d="M214.656,447.815a1.684,1.684,0,1,1-1.684,1.685,1.684,1.684,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_106" data-name="Path 106" d="M225.185,447.815a1.684,1.684,0,1,1-1.192.493,1.684,1.684,0,0,1,1.192-.493Z" fill="#fff"/>
+                            <path id="Path_107" data-name="Path 107" d="M235.713,447.815a1.684,1.684,0,1,1-1.684,1.685A1.684,1.684,0,0,1,235.713,447.815Z" fill="#fff"/>
+                            <path id="Path_108" data-name="Path 108" d="M246.241,447.815a1.684,1.684,0,1,1-1.684,1.685,1.684,1.684,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_109" data-name="Path 109" d="M256.77,447.815a1.684,1.684,0,1,1-1.192.493,1.684,1.684,0,0,1,1.192-.493Z" fill="#fff"/>
+                          </g>
+                          <g id="Group_41" data-name="Group 41">
+                            <path id="Path_110" data-name="Path 110" d="M193.6,438.55a1.684,1.684,0,1,1-1.192.493,1.685,1.685,0,0,1,1.192-.493Z" fill="#fff"/>
+                            <path id="Path_111" data-name="Path 111" d="M204.128,438.55a1.684,1.684,0,1,1-1.192.493,1.685,1.685,0,0,1,1.192-.493Z" fill="#fff"/>
+                            <path id="Path_112" data-name="Path 112" d="M214.656,438.55a1.685,1.685,0,1,1-1.684,1.685,1.685,1.685,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_113" data-name="Path 113" d="M225.185,438.55a1.684,1.684,0,1,1-1.192.493,1.685,1.685,0,0,1,1.192-.493Z" fill="#fff"/>
+                            <path id="Path_114" data-name="Path 114" d="M235.713,438.55a1.685,1.685,0,1,1-1.684,1.685,1.685,1.685,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_115" data-name="Path 115" d="M246.241,438.55a1.685,1.685,0,1,1-1.684,1.685,1.685,1.685,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_116" data-name="Path 116" d="M256.77,438.55a1.684,1.684,0,1,1-1.192.493,1.685,1.685,0,0,1,1.192-.493Z" fill="#fff"/>
+                          </g>
+                        </g>
+                        <g id="Group_46" data-name="Group 46">
+                          <g id="Group_43" data-name="Group 43">
+                            <path id="Path_117" data-name="Path 117" d="M193.6,484.617a1.685,1.685,0,1,1-1.685,1.685A1.685,1.685,0,0,1,193.6,484.617Z" fill="#fff"/>
+                            <path id="Path_118" data-name="Path 118" d="M204.128,484.617a1.685,1.685,0,1,1-1.685,1.685A1.685,1.685,0,0,1,204.128,484.617Z" fill="#fff"/>
+                            <path id="Path_119" data-name="Path 119" d="M214.656,484.617a1.685,1.685,0,1,1-1.684,1.685,1.685,1.685,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_120" data-name="Path 120" d="M225.185,484.617A1.685,1.685,0,1,1,223.5,486.3a1.685,1.685,0,0,1,1.685-1.683Z" fill="#fff"/>
+                            <path id="Path_121" data-name="Path 121" d="M235.713,484.617a1.685,1.685,0,1,1-1.684,1.685A1.685,1.685,0,0,1,235.713,484.617Z" fill="#fff"/>
+                            <path id="Path_122" data-name="Path 122" d="M246.241,484.617a1.685,1.685,0,1,1-1.684,1.685,1.685,1.685,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_123" data-name="Path 123" d="M256.77,484.617a1.685,1.685,0,1,1-1.685,1.685A1.685,1.685,0,0,1,256.77,484.617Z" fill="#fff"/>
+                          </g>
+                          <g id="Group_44" data-name="Group 44">
+                            <path id="Path_124" data-name="Path 124" d="M193.6,475.352a1.685,1.685,0,1,1-1.685,1.685,1.685,1.685,0,0,1,1.685-1.685Z" fill="#fff"/>
+                            <path id="Path_125" data-name="Path 125" d="M204.128,475.352a1.685,1.685,0,1,1-1.685,1.685,1.685,1.685,0,0,1,1.685-1.685Z" fill="#fff"/>
+                            <path id="Path_126" data-name="Path 126" d="M214.656,475.352a1.685,1.685,0,1,1-1.684,1.685,1.685,1.685,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_127" data-name="Path 127" d="M225.185,475.352a1.685,1.685,0,1,1-1.685,1.685,1.685,1.685,0,0,1,1.685-1.685Z" fill="#fff"/>
+                            <path id="Path_128" data-name="Path 128" d="M235.713,475.352a1.685,1.685,0,1,1-1.684,1.685,1.685,1.685,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_129" data-name="Path 129" d="M246.241,475.352a1.685,1.685,0,1,1-1.684,1.685,1.685,1.685,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_130" data-name="Path 130" d="M256.77,475.352a1.685,1.685,0,1,1-1.685,1.685,1.685,1.685,0,0,1,1.685-1.685Z" fill="#fff"/>
+                          </g>
+                          <g id="Group_45" data-name="Group 45">
+                            <path id="Path_131" data-name="Path 131" d="M193.6,466.087a1.685,1.685,0,1,1-1.685,1.685,1.685,1.685,0,0,1,1.685-1.685Z" fill="#fff"/>
+                            <path id="Path_132" data-name="Path 132" d="M204.128,466.087a1.685,1.685,0,1,1-1.685,1.685,1.685,1.685,0,0,1,1.685-1.685Z" fill="#fff"/>
+                            <path id="Path_133" data-name="Path 133" d="M214.656,466.087a1.685,1.685,0,1,1-1.684,1.685,1.685,1.685,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_134" data-name="Path 134" d="M225.185,466.087a1.685,1.685,0,1,1-1.685,1.685,1.685,1.685,0,0,1,1.685-1.685Z" fill="#fff"/>
+                            <path id="Path_135" data-name="Path 135" d="M235.713,466.087a1.685,1.685,0,1,1-1.684,1.685,1.685,1.685,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_136" data-name="Path 136" d="M246.241,466.087a1.685,1.685,0,1,1-1.684,1.685,1.685,1.685,0,0,1,1.684-1.685Z" fill="#fff"/>
+                            <path id="Path_137" data-name="Path 137" d="M256.77,466.087a1.685,1.685,0,1,1-1.685,1.685,1.685,1.685,0,0,1,1.685-1.685Z" fill="#fff"/>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+                <g id="Group_51" data-name="Group 51">
+                  <circle id="Ellipse_7" data-name="Ellipse 7" cx="63.667" cy="63.667" r="63.667" transform="matrix(0.163, -0.987, 0.987, 0.163, 600.1, 364.597)" fill="none" opacity="0.32" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke-dasharray="0 5" stroke="#fff"/>
+                  <circle id="Ellipse_8" data-name="Ellipse 8" cx="5.25" cy="5.25" r="5.25" transform="translate(605 295)" fill="#2a57d4" opacity="0.88"/>
+                  <circle id="Ellipse_9" data-name="Ellipse 9" cx="9.5" cy="9.5" r="9.5" transform="translate(635 245.5)" fill="#f9fbfc"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
