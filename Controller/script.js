@@ -25,7 +25,7 @@ function init() {
       .then(data => displayData(data))
       .then(() => lastUpdate())
       .catch(error => console.log(error));
-  }, 1000000000 /*10000*/);
+  }, 10000);
 
   //DarkMode
   changeDarkMode();
@@ -341,6 +341,7 @@ function closeModalWindow() {
 function overlayWindow() {
   var overlay = document.getElementById("over");
   var modalElem = document.getElementById("modalDesc");
+  var scrollElm = document.getElementById("modalDesc");
 
   //Overlay
   overlay.style.visibility = "visible";
