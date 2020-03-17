@@ -4,8 +4,6 @@ This is a web app that fetch the CoinGecko API V3 to get the top 100 cryptocuren
 
 ## Main Page
 
-![alt text](/presentationResources/cryptoList.gif)
-
 ## Link
 
 [Go to the Site](https://osvaldo111.github.io/CryptoList/View/index.html)
